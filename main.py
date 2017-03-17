@@ -17,7 +17,7 @@ class Converter(object):
         self.files = []
 
     def find_files(self):
-        """finds all the files in self.path"""
+        """finds all the files in current path"""
         for f in self.formats:
             for item in glob.glob("*.{}".format(f)):
                 self.files.append(item)
