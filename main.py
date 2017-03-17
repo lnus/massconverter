@@ -11,7 +11,6 @@ import glob
 class Converter(object):
     """Converts all the files in the current location to mp3"""
     def __init__(self):
-        self.path = os.getcwd()
         if not os.path.exists("Finished"):
             os.system("mkdir Finished")
         self.formats = ["ogg", "mp4", "wav"]
