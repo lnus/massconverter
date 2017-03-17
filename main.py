@@ -26,7 +26,7 @@ class Converter(object):
         """converts all files in self.files"""
         for f in self.files:
             filename = f[:-4] 
-            os.system("ffmpeg -i {} Finished\{}".format(f, filename+".mp3"))
+            os.system('ffmpeg -i "{}" "Finished\{}"'.format(f, filename+".mp3"))
         
 def main():
     """Main function"""
