@@ -1,3 +1,9 @@
+"""
+File: main.py
+Author: lnus 
+Github: https://github.com/lnus
+Description: A script that converts files to mp3 files
+"""
 import os
 import time
 import glob
